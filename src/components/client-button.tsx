@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 export default function Button(){
     const router = useRouter();
 
+    // @ts-ignore
     const onKeyUp = (event) => {
         const value = event.target.value; 
         event.preventDefault();
